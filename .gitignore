@@ -22,5 +22,9 @@ build/
 *.swp
 *.swo
 
-# Data (can be regenerated)
-data/
+# Data (can be regenerated from sources)
+# NOTE: Keep data/ in repo for collaborators - uncomment if you want to ignore
+# data/
+
+# Data cache files
+data/**/*.DS_Store
